@@ -1,0 +1,6 @@
+1 falldown
+2 lying
+3 punch
+4 sit
+5 throw
+6 walk
