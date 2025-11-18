@@ -1,11 +1,8 @@
 # 낙상 및 행동 감지 (Two‑Stream 기반 변형)
 
-<!-- Demo GIFs -->
-
 <p align="center">
   <img src="demo/demo1.gif" width="280" />
-  <img src="path/to/demo2.gif" width="280" />
-  <img src="path/to/demo3.gif" width="280" />
+  <img src="demo/demo2.gif" width="280" />
 </p>
 
 
@@ -29,4 +26,3 @@
 3. **후처리**:  원본 영상에 예측 라벨을 오버레이한 결과 비디오를 생성할 수 있습니다.
 
 > ⚠️ **주의사항**: 개인 프로젝트에서 사용하던 코드를 기반으로 하여 일부 경로(path) 지정이 다소 지저분하거나 절대경로가 포함되어 있을 수 있습니다. 사용 환경에 따라 경로를 수정해 사용하는 것을 권장합니다.
-
