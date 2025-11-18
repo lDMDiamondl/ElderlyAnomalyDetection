@@ -3,7 +3,7 @@
 <!-- Demo GIFs -->
 
 <p align="center">
-  <img src="path/to/demo1.gif" width="280" />
+  <img src="demo/demo1.gif" width="280" />
   <img src="path/to/demo2.gif" width="280" />
   <img src="path/to/demo3.gif" width="280" />
 </p>
