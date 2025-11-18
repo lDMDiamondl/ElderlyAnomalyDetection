@@ -1,12 +1,12 @@
 # 낙상 및 행동 감지 (Two‑Stream 기반 변형)
 
 <p align="center">
-  <img src="demo/demo1.gif" width="280" />
-  <img src="demo/demo2.gif" width="280" />
+  <img src="demo/demo1.gif" width="400" />
+  <img src="demo/demo2.gif" width="400" />
 </p>
 
 
-이 저장소는 **[bryanyzhu/two-stream-pytorch](https://github.com/bryanyzhu/two-stream-pytorch)** 코드를 변형하여 만든 낙상/행동 감지 파이프라인입니다. YOLO로 사람을 먼저 검출한 뒤(검출된 사람 있을 때만) Two‑Stream(공간 + 옵티컬 플로우) 기반 분류기를 돌려 다음 **6가지 동작**을 프레임 단위로 예측합니다.
+이 저장소는 **[bryanyzhu/two-stream-pytorch](https://github.com/bryanyzhu/two-stream-pytorch)** 코드를 변형하여 만든 낙상/행동 감지 파이프라인입니다. 웹캠/카메라를 입력으로 받아 YOLO로 사람을 먼저 검출한 뒤(검출된 사람 있을 때만) Two‑Stream(공간 + 옵티컬 플로우) 기반 분류기를 돌려 다음 **6가지 동작**을 예측합니다.
 
 ## 감지하는 행동 (클래스 번호)
 
