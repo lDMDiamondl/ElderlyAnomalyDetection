@@ -19,8 +19,7 @@ transform = transforms.Compose([
 ])
 
 def compute_optical_flow_webcam(model, display_duration=3):
-    # cap = cv2.VideoCapture(0)
-    cap = cv2.VideoCapture('http://172.30.1.31:2023/video')
+    cap = cv2.VideoCapture(0)
     ret, prev_frame = cap.read()
     
     if not ret:
