@@ -62,8 +62,7 @@ if __name__ == '__main__':
     model = load_model(model_path)
 
     # 웹캠에서 프레임을 읽기 위한 비디오 캡처 객체 생성
-    # cap = cv2.VideoCapture(0)
-    cap = cv2.VideoCapture('http://172.30.1.31:2023/video')
+    cap = cv2.VideoCapture(0)
 
     if not cap.isOpened():
         print("Error: Could not open webcam.")
